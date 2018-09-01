@@ -1561,13 +1561,24 @@ POSTS & CONTENT STYLES
 }
 
 .entry-content img {
-  margin: 0 0 1.5em 0;
-  max-width: 100%;
-  height: auto;
+  Margin: -149px;
+  margin-top: -83px;
+  margin-bottom: 50px;
+  max-width: 130% !important;
+  height: 550px !important;
+  width: 130%;
 }
 
+/* .image wp-image-33 {
+  Margin: -149px;
+  margin-top: -83px;
+  margin-bottom: 50px;
+  max-width: 130% !important;
+  height: 550px !important;
+} */
+
 .entry-content .size-auto, .entry-content .size-full, .entry-content .size-large, .entry-content .size-medium, .entry-content .size-thumbnail {
-  max-width: 100%;
+  max-width: 130%;
   height: auto;
 }
 
@@ -1590,7 +1601,7 @@ POSTS & CONTENT STYLES
 }
 
 .wp-caption img {
-  max-width: 100%;
+  /* max-width: 100%; */
   margin-bottom: 0;
   width: 100%;
 }
