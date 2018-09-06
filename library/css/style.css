@@ -308,6 +308,7 @@ nav ul, nav ol {
 
 img {
   border: 0;
+  /* margin-top: -137px !important; */
 }
 
 /**
@@ -1342,11 +1343,11 @@ h2, .h2 {
 }
 
 h3, .h3 {
-  font-size: 14px;
+  font-size: 20px;
 }
 
 h4, .h4 {
-  font-size: 14px;
+  font-size: 20px;
   font-weight: 700;
 }
 
@@ -2326,4 +2327,6 @@ be set to display none.
     height: 100px;
     width: 100%;
   }
+}
+
 }
