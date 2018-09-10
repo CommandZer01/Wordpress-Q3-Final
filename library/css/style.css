@@ -1566,12 +1566,12 @@ POSTS & CONTENT STYLES
 }
 
 .entry-content img {
-  Margin: -149px;
+  /* Margin: -149px;
   margin-top: -83px;
   margin-bottom: 50px;
   max-width: 130% !important;
   height: 550px !important;
-  width: 130%;
+  width: 130%; */
 }
 
 /* .image wp-image-33 {
