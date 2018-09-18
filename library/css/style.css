@@ -289,7 +289,7 @@ nav ul, nav ol {
   /* margin: -10px; */
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: #E3AB53;
   position: fixed;
   top: 0;
   width: 100%;
@@ -1347,7 +1347,7 @@ h2, .h2 {
 }
 
 h3, .h3 {
-  font-size: 20px;
+  font-size: 40px;
 }
 
 h4, .h4 {
@@ -1415,7 +1415,7 @@ and more scalable.
 
 .nav li a {
   display: block;
-  color: white;
+  color: #000;
   text-decoration: none;
   padding: 0.75em;
   /*
@@ -1566,12 +1566,12 @@ POSTS & CONTENT STYLES
 }
 
 .entry-content img {
-  Margin: -149px;
+  /* Margin: -149px;
   margin-top: -83px;
   margin-bottom: 50px;
   max-width: 130% !important;
   height: 550px !important;
-  width: 130%;
+  width: 130%; */
 }
 
 /* .image wp-image-33 {
@@ -1918,6 +1918,11 @@ FOOTER STYLES
   color: #f8f9fa;
 }
 
+#laptop {
+  margin: 0px 0px 0px 0px;
+  height: 450px;
+}
+
 /*
 if you checked out the link above:
 http://www.alistapart.com/articles/organizing-mobile/
@@ -2176,6 +2181,10 @@ in general anyone not viewing on a mobile device. Here's where
 you can add resource intensive styles.
 *********************/
 
+#contactplugin {
+  padding-bottom: 200px;
+}
+
 @media only screen and (min-width: 1030px) {
   /******************************************************************
   Site Name:
@@ -2191,6 +2200,14 @@ you can add resource intensive styles.
     width: 1040px;
   }
 }
+
+/* #apply {
+  margin: 0px 0px 0px 50px;
+}
+
+#QA {
+  margin: -20px 0px 0px 0px;
+} */
 
 /*********************
 LARGE VIEWING SIZE
@@ -2209,9 +2226,16 @@ This is for the larger monitors and possibly full screen viewers.
 
 
 
-
   ******************************************************************/
 }
+
+/* #apply {
+  margin: 0px 0px 0px 50px;
+}
+
+#QA {
+  margin: -20px 0px 0px 0px;
+} */
 
 /*********************
 RETINA (2x RESOLUTION DEVICES)
@@ -2335,6 +2359,70 @@ be set to display none.
     height: 100px;
     width: 100%;
   }
+}
+
+@media only screen and (min-width: 770px) and (max-width: 1200px) {
+  #testimonalpluin {
+    margin: 0px 150px 0px -20px;
+  }
+  #eventsplugin {
+    margin: 0px 200px 0px -90px;
+  }
+  #contactplugin {
+    margin: 0px 0px 0px 140px;
+    opacity: 0.7;
+  }
+  #apply {
+    margin: 0px 0px 0px 50px;
+  }
+  #QA {
+    margin: -20px 0px 0px 0px;
+  }
+}
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (max-width: 768px) and (min-width: 500px) {}
+
+#apply {
+  margin: 0px 0px 0px -390px;
+}
+
+#QA {
+  margin: -20px 0px 0px 0px;
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 400px) {}
+
+#testimonalpluin {
+  margin: 0px 150px 0px -20px;
+}
+
+#eventsplugin {
+  margin: 0px 200px 0px -90px;
+}
+
+#contactplugin {
+  margin: 0px 0px 0px 140px;
+  opacity: 0.7;
+}
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (min-width: 500px) {}
+
+#text1 {
+  margin: 0px 0px 0px -130px
+}
+
+#Text2 {
+  margin: 0px 0px 0px -130px
 }
 
 }
