@@ -283,23 +283,17 @@ ol, ul {
 nav ul, nav ol {
   list-style: none;
   list-style-image: none;
-  list-style: none;
-  list-style-image: none;
   list-style-type: none;
-  /* margin: -10px; */
   padding: 0;
   overflow: hidden;
   background-color: #E3AB53;
   position: fixed;
   top: 0;
   width: 100%;
-  left: -01px;
+  left: 0px;
   float: right;
-  /* display: block; */
   color: white;
-  /* text-align: center; */
-  /* padding: 14px 16px; */
-  /* text-decoration: none; */
+  z-index: 10000;
 }
 
 /* ==========================================================================
@@ -1347,7 +1341,7 @@ h2, .h2 {
 }
 
 h3, .h3 {
-  font-size: 40px;
+  font-size: 20px;
 }
 
 h4, .h4 {
@@ -2181,62 +2175,12 @@ in general anyone not viewing on a mobile device. Here's where
 you can add resource intensive styles.
 *********************/
 
-#contactplugin {
-  padding-bottom: 200px;
-}
-
-@media only screen and (min-width: 1030px) {
-  /******************************************************************
-  Site Name:
-  Author:
-
-  Stylesheet: Desktop Stylsheet
-
-  This is the desktop size. It's larger than an iPad so it will only
-  be seen on the Desktop.
-
-  ******************************************************************/
-  .wrap {
-    width: 1040px;
-  }
-}
-
-/* #apply {
-  margin: 0px 0px 0px 50px;
-}
-
-#QA {
-  margin: -20px 0px 0px 0px;
-} */
-
 /*********************
 LARGE VIEWING SIZE
 This is for the larger monitors and possibly full screen viewers.
 *********************/
 
-@media only screen and (min-width: 1240px) {
-  /******************************************************************
-  Site Name:
-  Author:
-
-  Stylesheet: Super Large Monitor Stylesheet
-
-  You can add some advanced styles here if you like. This kicks in
-  on larger screens.
-
-
-
-  ******************************************************************/
-}
-
-/* #apply {
-  margin: 0px 0px 0px 50px;
-}
-
-#QA {
-  margin: -20px 0px 0px 0px;
-} */
-
+@
 /*********************
 RETINA (2x RESOLUTION DEVICES)
 This applies to the retina iPhone (4s) and iPad (2,3) along with
@@ -2361,7 +2305,65 @@ be set to display none.
   }
 }
 
-@media only screen and (min-width: 770px) and (max-width: 1200px) {
+@media only screen and (min-width: 1030px) and (max-width: 1280px) {
+  #testimonalpluin {
+    margin: 0px 150px 0px -20px;
+  }
+  #eventsplugin {
+    margin: 0px 200px 0px -90px;
+  }
+  #contactplugin {
+    opacity: 0.7;
+    width: 110%;
+    height: 400px;
+    margin: 10px;
+  }
+  #contactplugin2 {
+    margin: 0px 0px 0px 0px;
+    opacity: 0.7;
+    height: 400px;
+    width: 160%;
+  }
+  #Button {
+    margin: 0px 0px 0px 50px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    /* display: inline-block; */
+  }
+  #Austin {
+    margin-left: 35px;
+    margin-top: 130px;
+  }
+  #laptop {
+    margin: 0px 0px 0px -150px;
+    height: 450px;
+    width: 130%;
+  }
+  #text4 {
+    color: #FFFFFF;
+    font-size: 40px;
+    margin: 40px;
+  }
+  #Button3 {
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    cursor: pointer;
+    float: right;
+    margin-top: -50px;
+  }
+}
+
+@media only screen and (min-width: 780px) and (max-width: 1029px) {
   #testimonalpluin {
     margin: 0px 150px 0px -20px;
   }
@@ -2371,58 +2373,211 @@ be set to display none.
   #contactplugin {
     margin: 0px 0px 0px 140px;
     opacity: 0.7;
+    height: 300px;
+    width: 90%;
+    ;
   }
-  #apply {
+  #contactplugin2 {
+    margin: 0px 0px 0px 140px;
+    opacity: 0.7;
+    width: 120%;
+    height: 350px;
+  }
+  #Button {
     margin: 0px 0px 0px 50px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    display: inline-block;
   }
-  #QA {
-    margin: -20px 0px 0px 0px;
+  #text1 {
+    margin: 0px 0px 0px -130px;
   }
-}
-
+  #Text2 {
+    margin: 0px 0px 0px -130px;
+  }
+  #Austin {
+    font-size: 20px;
+  }
+  #text4 {
+    font-size: 30px;
+    color: #fff;
+  }
+  #Button3 {
+    margin: 0px 2px 0px 5px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    display: inline-block;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 
-@media only screen and (max-width: 768px) and (min-width: 500px) {}
-
-#apply {
-  margin: 0px 0px 0px -390px;
+@media only screen and (max-width: 779px) and (min-width: 700px) {
+  #testimonalpluin {
+    margin: 0px 150px 0px -20px;
+  }
+  #eventsplugin {
+    margin: 0px 200px 0px -90px;
+  }
+  #contactplugin {
+    margin: 0px 0px 0px 140px;
+    opacity: 0.7;
+    height: 400px;
+    width: 76%;
+  }
+  #contactplugin2 {
+    margin: 0px 0px 0px 140px;
+    opacity: 0.7;
+    height: 400px;
+    width: 120%;
+  }
+  #Button {
+    margin: 0px 0px 0px 50px;
+    border: none;
+    color: white;
+    padding: 15px 90px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 5px 2px;
+    cursor: pointer;
+    display: inline-block;
+    float: right;
+  }
+  #text1 {
+    margin: 0px 0px 0px -130px;
+  }
+  #Text2 {
+    margin: 0px 0px 0px -130px;
+  }
+  #Austin {
+    font-size: 14px;
+    margin-right: -100px;
+    padding-right: 100px;
+    margin-top: 40px;
+  }
+  #laptop {
+    margin: 0px 0px 0px -150px;
+    height: 350px;
+    width: 110%;
+  }
+  #Button2 {
+    color: white;
+    margin-right: 300px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    cursor: pointer;
+    float: right;
+    margin-top: -50px;
+  }
+  #text4 {
+    color: #FFFFFF;
+    font-size: 15px;
+    margin-left: 45px;
+  }
+  #Button3 {
+    color: white;
+    margin-right: 300px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    cursor: pointer;
+    float: right;
+    margin-top: -50px;
+  }
 }
 
-#QA {
-  margin: -20px 0px 0px 0px;
+@media only screen and (max-width: 699px) and (min-width: 500px) {
+  #testimonalpluin {
+    margin: 0px 150px 0px -20px;
+  }
+  #eventsplugin {
+    margin-right: 300px;
+    width: 70%;
+    height: 20px;
+    margin-bottom: 300px;
+  }
+  #contactplugin {
+    margin: 0px 0px 0px 140px;
+    opacity: 0.7;
+    height: 300px;
+    width: 78%;
+  }
+  #Button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 30px 0px 10px;
+    cursor: pointer;
+    float: right;
+    display: inline-block;
+  }
+  #text1 {
+    margin: 0px 0px 0px -130px;
+    margin-top: -50px;
+    text-align: left;
+    font-size: 20px;
+  }
+  #Text2 {
+    margin: 0px 0px 0px -130px;
+    margin-top: -50px;
+    text-align: left;
+  }
+  #Austin {
+    font-size: 10px;
+    /* padding-right: 100px; */
+    margin-top: 40px;
+    text-align: center;
+    margin-right: 30px;
+  }
+  #laptop {
+    /* margin: 0px 0px 0px -150px; */
+    height: 250px;
+    width: 119%;
+  }
+  #text4 {
+    font-size: 20px;
+    margin-left: 40px;
+  }
+  #Button3 {
+    color: white;
+    margin-right: 200px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    cursor: pointer;
+    float: right;
+    margin-top: -35px;
+  }
+  #laptop {
+    margin: 0px 0px 0px -150px;
+    height: 350px;
+    width: 116%;
+  }
 }
 
-/* Large devices (laptops/desktops, 992px and up) */
-
-@media only screen and (min-width: 400px) {}
-
-#testimonalpluin {
-  margin: 0px 150px 0px -20px;
-}
-
-#eventsplugin {
-  margin: 0px 200px 0px -90px;
-}
-
-#contactplugin {
-  margin: 0px 0px 0px 140px;
-  opacity: 0.7;
-}
-
-}
+/* Large devices (laptops/desktops, 992px and up) *
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-
-@media only screen and (min-width: 500px) {}
-
-#text1 {
-  margin: 0px 0px 0px -130px
-}
-
-#Text2 {
-  margin: 0px 0px 0px -130px
-}
-
-}
