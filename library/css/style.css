@@ -2361,6 +2361,16 @@ be set to display none.
     float: right;
     margin-top: -50px;
   }
+  #aboutimg {
+    margin: -85px 400px 0px -270px;
+    height: 350px;
+    width: 180%;
+  }
+  #text5 {
+    color: #FFFFFF;
+    font-size: 35px;
+    margin: 10px;
+  }
 }
 
 @media only screen and (min-width: 780px) and (max-width: 1029px) {
@@ -2419,6 +2429,17 @@ be set to display none.
     margin: 4px 2px;
     cursor: pointer;
     display: inline-block;
+  }
+  #aboutimg {
+    margin: -85px 300px 0px -130px;
+    height: 250px;
+    width: 140%;
+  }
+  #text5 {
+    color: #FFFFFF;
+    font-size: 25px;
+    margin: 10px;
+    margin-left: 160px;
   }
 }
 
@@ -2502,6 +2523,18 @@ be set to display none.
     float: right;
     margin-top: -50px;
   }
+  #aboutimg {
+    margin: 1px;
+    -85px 400px 0px -38px;
+    height: 350px;
+    width: 120%;
+  }
+  #text5 {
+    color: #FFFFFF;
+    font-size: 15px;
+    margin: 90px;
+    margin-top: 70px;
+  }
 }
 
 @media only screen and (max-width: 699px) and (min-width: 500px) {
@@ -2519,6 +2552,12 @@ be set to display none.
     opacity: 0.7;
     height: 300px;
     width: 78%;
+  }
+  #contactplugin2 {
+    margin: 0px 0px 0px 140px;
+    opacity: 0.7;
+    height: 325px;
+    width: 110%;
   }
   #Button {
     border: none;
@@ -2575,6 +2614,35 @@ be set to display none.
     margin: 0px 0px 0px -150px;
     height: 350px;
     width: 116%;
+  }
+  #aboutimg {
+    margin: -85px 400px 0px -270px;
+    height: 350px;
+    width: 180%;
+  }
+  #text5 {
+    color: #FFFFFF;
+    font-size: 35px;
+    margin: 10px;
+  }
+  #text4 {
+    color: #FFFFFF;
+    font-size: 21px;
+    margin-left: 45px;
+    margin-top: 20px;
+  }
+  #Button2 {
+    color: white;
+    margin-right: 150px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    cursor: pointer;
+    float: right;
+    margin-top: -40px;
+    margin-left: 150px;
   }
 }
 
