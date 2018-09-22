@@ -288,7 +288,7 @@ nav ul, nav ol {
   overflow: hidden;
   background-color: #E3AB53;
   position: fixed;
-  top: 0;
+  top: 0px;
   width: 100%;
   left: 0px;
   float: right;
@@ -2362,15 +2362,23 @@ be set to display none.
     margin-top: -50px;
   }
   #aboutimg {
-    margin: -85px 400px 0px -270px;
+    margin: -85px 400px 0px -294px;
     height: 350px;
-    width: 180%;
+    width: 185%;
   }
-  #text5 {
-    color: #FFFFFF;
-    font-size: 35px;
-    margin: 10px;
-  }
+}
+
+#text5 {
+  color: #FFFFFF;
+  font-size: 35px;
+  margin: 14px;
+}
+
+/* #menu-menu {
+    position: fixed;
+    top: 40px;
+  } */
+
 }
 
 @media only screen and (min-width: 780px) and (max-width: 1029px) {
@@ -2385,7 +2393,6 @@ be set to display none.
     opacity: 0.7;
     height: 300px;
     width: 90%;
-    ;
   }
   #contactplugin2 {
     margin: 0px 0px 0px 140px;
@@ -2524,16 +2531,26 @@ be set to display none.
     margin-top: -50px;
   }
   #aboutimg {
-    margin: 1px;
-    -85px 400px 0px -38px;
+    margin: -85px 400px 0px -38px;
     height: 350px;
     width: 120%;
   }
   #text5 {
     color: #FFFFFF;
-    font-size: 15px;
+    font-size: 30px;
     margin: 90px;
     margin-top: 70px;
+  }
+  .vertical_navbar {
+    display: none;
+  }
+  #menu-menu {
+    position: fixed;
+    top: 28px;
+    font-size: 10px;
+  }
+  #IMG1 {
+    width: 450px;
   }
 }
 
@@ -2584,13 +2601,11 @@ be set to display none.
   }
   #Austin {
     font-size: 10px;
-    /* padding-right: 100px; */
     margin-top: 40px;
     text-align: center;
     margin-right: 30px;
   }
   #laptop {
-    /* margin: 0px 0px 0px -150px; */
     height: 250px;
     width: 119%;
   }
@@ -2618,12 +2633,13 @@ be set to display none.
   #aboutimg {
     margin: -85px 400px 0px -270px;
     height: 350px;
-    width: 180%;
+    width: 172%;
   }
   #text5 {
     color: #FFFFFF;
-    font-size: 35px;
-    margin: 10px;
+    font-size: 20px;
+    margin: 90px;
+    margin-left: 250px;
   }
   #text4 {
     color: #FFFFFF;
@@ -2644,8 +2660,128 @@ be set to display none.
     margin-top: -40px;
     margin-left: 150px;
   }
+  #menu-menu {
+    position: fixed;
+    top: 28px;
+    font-size: 10px;
+  }
+  #IMG1 {
+    display: none;
+  }
 }
 
-/* Large devices (laptops/desktops, 992px and up) *
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 499px) and (min-width: 350px) {
+  #testimonalpluin {
+    margin: 0px 150px 0px -20px;
+  }
+  #eventsplugin {
+    margin-right: 300px;
+    width: 65%;
+    height: 20px;
+    margin-bottom: 300px;
+  }
+  #contactplugin {
+    margin: 0px 0px 0px 140px;
+    opacity: 0.7;
+    height: 300px;
+    width: 78%;
+  }
+  #contactplugin2 {
+    margin: 0px 0px 0px 140px;
+    opacity: 0.7;
+    height: 325px;
+    width: 110%;
+  }
+  #Button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 125px 0px 0px;
+    cursor: pointer;
+    float: right;
+    display: inline-block;
+  }
+  #text1 {
+    margin: 0px 0px 0px -250px;
+    /* margin-top: -50px; */
+    text-align: left;
+    font-size: 15px;
+  }
+  #Text2 {
+    margin: 0px 0px 0px -130px;
+    margin-top: -50px;
+    text-align: left;
+  }
+  #Austin {
+    font-size: 10px;
+    margin-top: 40px;
+    text-align: center;
+    margin-right: 111px;
+  }
+  #laptop {
+    height: 250px;
+    width: 119%;
+  }
+  #text4 {
+    font-size: 20px;
+    margin-left: 40px;
+  }
+  #Button3 {
+    color: white;
+    margin-right: 150px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    cursor: pointer;
+    float: right;
+    margin-top: -35px;
+  }
+  #laptop {
+    margin: 0px 0px 0px -150px;
+    height: 350px;
+    width: 116%;
+  }
+  #aboutimg {
+    margin: -85px 400px 0px -270px;
+    height: 350px;
+    width: 172%;
+  }
+  #text5 {
+    color: #FFFFFF;
+    font-size: 20px;
+    margin: 90px;
+    margin-left: 250px;
+  }
+  #text4 {
+    color: #FFFFFF;
+    font-size: 21px;
+    margin-left: 45px;
+    margin-top: 20px;
+  }
+  #Button2 {
+    color: white;
+    margin-right: 150px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    cursor: pointer;
+    float: right;
+    margin-top: -40px;
+    margin-left: 150px;
+  }
+  #menu-menu {
+    position: fixed;
+    top: 28px;
+    font-size: 10px;
+  }
+  #IMG1 {
+    display: none;
+  }
+}
