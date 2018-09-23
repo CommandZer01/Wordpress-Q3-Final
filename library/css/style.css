@@ -1362,10 +1362,12 @@ HEADER STYLES
 
 .header {
   background-color: #323944;
+  width: 100%;
 }
 
 #logo {
   margin: 0.75em 0;
+  margin-top: 37px;
 }
 
 #logo a {
@@ -1910,6 +1912,7 @@ FOOTER STYLES
   clear: both;
   background-color: #323944;
   color: #f8f9fa;
+  width: 112%;
 }
 
 #laptop {
@@ -2374,10 +2377,11 @@ be set to display none.
   margin: 14px;
 }
 
-/* #menu-menu {
-    position: fixed;
-    top: 40px;
-  } */
+#menu-menu {
+  position: fixed;
+  top: -19px;
+  font-size: 14px;
+}
 
 }
 
@@ -2497,9 +2501,10 @@ be set to display none.
     margin-top: 40px;
   }
   #laptop {
-    margin: 0px 0px 0px -150px;
-    height: 350px;
-    width: 110%;
+    margin: 0px 0px 0px 140px;
+    opacity: 0.7;
+    height: 400px;
+    width: 86%;
   }
   #Button2 {
     color: white;
@@ -2546,11 +2551,15 @@ be set to display none.
   }
   #menu-menu {
     position: fixed;
-    top: 28px;
+    top: -10px;
     font-size: 10px;
   }
   #IMG1 {
     width: 450px;
+  }
+  .header {
+    background-color: #323944;
+    width: 112%;
   }
 }
 
@@ -2662,7 +2671,7 @@ be set to display none.
   }
   #menu-menu {
     position: fixed;
-    top: 28px;
+    top: -10px;
     font-size: 10px;
   }
   #IMG1 {
@@ -2747,9 +2756,9 @@ be set to display none.
     width: 116%;
   }
   #aboutimg {
-    margin: -85px 400px 0px -270px;
-    height: 350px;
-    width: 172%;
+    margin: -48px 400px 0px -270px;
+    height: 316px;
+    width: 197%;
   }
   #text5 {
     color: #FFFFFF;
@@ -2765,20 +2774,19 @@ be set to display none.
   }
   #Button2 {
     color: white;
-    margin-right: 150px;
+    margin-right: 100px;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 15px;
+    font-size: 12px;
     cursor: pointer;
     float: right;
-    margin-top: -40px;
-    margin-left: 150px;
+    margin-top: -35px;
   }
   #menu-menu {
     position: fixed;
-    top: 28px;
+    top: -10px;
     font-size: 10px;
   }
   #IMG1 {
