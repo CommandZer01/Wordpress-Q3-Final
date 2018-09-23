@@ -2313,7 +2313,7 @@ be set to display none.
     margin: 0px 150px 0px -20px;
   }
   #eventsplugin {
-    margin: 0px 200px 0px -90px;
+    margin: -37px 57px 0px -226px;
   }
   #contactplugin {
     opacity: 0.7;
@@ -2346,7 +2346,7 @@ be set to display none.
   #laptop {
     margin: 0px 0px 0px -150px;
     height: 450px;
-    width: 130%;
+    width: 136%;
   }
   #text4 {
     color: #FFFFFF;
@@ -2369,20 +2369,22 @@ be set to display none.
     height: 350px;
     width: 185%;
   }
-}
-
-#text5 {
-  color: #FFFFFF;
-  font-size: 35px;
-  margin: 14px;
-}
-
-#menu-menu {
-  position: fixed;
-  top: -19px;
-  font-size: 14px;
-}
-
+  #text5 {
+    color: #FFFFFF;
+    font-size: 35px;
+    margin: 14px;
+  }
+  #menu-menu {
+    position: fixed;
+    top: -19px;
+    font-size: 14px;
+  }
+  #text1 {
+    font-size: 30px;
+  }
+  #IMG1 {
+    width: 500px;
+  }
 }
 
 @media only screen and (min-width: 780px) and (max-width: 1029px) {
