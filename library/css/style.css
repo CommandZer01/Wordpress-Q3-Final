@@ -2384,6 +2384,9 @@ be set to display none.
   #IMG1 {
     width: 500px;
   }
+  #IMG2 {
+    width: 434px;
+  }
 }
 
 @media only screen and (min-width: 770px) and (max-width: 1029px) {
@@ -2457,6 +2460,9 @@ be set to display none.
     position: fixed;
     top: -35px;
     font-size: 15px;
+  }
+  #IMG2 {
+    width: 434px;
   }
 }
 
@@ -2612,6 +2618,9 @@ be set to display none.
     margin: 0.75em 0;
     margin-top: 135px;
   }
+  #IMG2 {
+    display: none;
+  }
 }
 
 .nav {
@@ -2730,6 +2739,9 @@ be set to display none.
   #logo {
     margin: 0.75em 0;
     margin-top: 110px;
+  }
+  #IMG2 {
+    display: none;
   }
 }
 
@@ -2888,5 +2900,8 @@ be set to display none.
   #logo {
     margin: 0.75em 0;
     margin-top: 110px;
+  }
+  #IMG2 {
+    display: none;
   }
 }
