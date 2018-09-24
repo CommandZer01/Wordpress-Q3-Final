@@ -33,7 +33,7 @@ the whole project.
  * Correct `block` display not defined in IE 8/9.
  */
 
- article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
   display: block;
 }
 
@@ -2232,7 +2232,6 @@ query for retina AND a certain size if you want. Go Nuts.
   the original dimensions and you are good to go.
 
 */
-
 }
 
 /*********************
@@ -2313,9 +2312,7 @@ be set to display none.
     margin: 0px 150px 0px -20px;
   }
   #eventsplugin {
-
     margin: -37px 57px 0px -226px;
-
   }
   #contactplugin {
     opacity: 0.7;
@@ -2348,7 +2345,7 @@ be set to display none.
   #laptop {
     margin: 0px 0px 0px -150px;
     height: 450px;
-    width: 136%;
+    width: 129%;
   }
   #text4 {
     color: #FFFFFF;
@@ -2376,25 +2373,20 @@ be set to display none.
     font-size: 35px;
     margin: 14px;
   }
-   #menu-menu {
-
-      position: fixed;
-      top: -19px;
-    } 
+  #menu-menu {
+    position: fixed;
+    top: -35px;
+    font-size: 15px;
+  }
+  #text1 {
+    font-size: 30px;
+  }
+  #IMG1 {
+    width: 500px;
+  }
 }
 
-#text1 {
-  font-size: 30px;
-}
-
-#IMG1 {
-  width: 500px;
-}
-
-
-}
-
-@media only screen and (min-width: 780px) and (max-width: 1029px) {
+@media only screen and (min-width: 770px) and (max-width: 1029px) {
   #testimonalpluin {
     margin: 0px 150px 0px -20px;
   }
@@ -2461,11 +2453,16 @@ be set to display none.
     margin: 10px;
     margin-left: 160px;
   }
+  #menu-menu {
+    position: fixed;
+    top: -35px;
+    font-size: 15px;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 
-@media only screen and (max-width: 779px) and (min-width: 700px) {
+@media only screen and (max-width: 769px) and (min-width: 700px) {
   #testimonalpluin {
     margin: 0px 150px 0px -20px;
   }
@@ -2485,14 +2482,13 @@ be set to display none.
     width: 120%;
   }
   #Button {
-    margin: 0px 0px 0px 50px;
     border: none;
     color: white;
     padding: 15px 90px;
     text-align: center;
     text-decoration: none;
     font-size: 16px;
-    margin: 5px 2px;
+    margin: 4px 22px;
     cursor: pointer;
     display: inline-block;
     float: right;
@@ -2510,10 +2506,9 @@ be set to display none.
     margin-top: 40px;
   }
   #laptop {
-    margin: 0px 0px 0px 108px;
-    opacity: 0.7;
-    height: 400px;
-    width: 86%;
+    margin: 0px 0px 0px -101px;
+    height: 503px;
+    width: 100%;
   }
   #Button2 {
     color: white;
@@ -2560,8 +2555,8 @@ be set to display none.
   }
   #menu-menu {
     position: fixed;
-    top: 28px;
-    font-size: 10px;
+    top: -20px;
+    font-size: 13px;
   }
   #IMG1 {
     width: 450px;
@@ -2569,81 +2564,54 @@ be set to display none.
   .header {
     background-color: #323944;
     width: 112%;
-
   }
-}
-
-#Button2 {
-  color: white;
-  margin-right: 300px;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 15px;
-  cursor: pointer;
-  float: right;
-  margin-top: -50px;
-}
-
-#text4 {
-  color: #FFFFFF;
-  font-size: 25px;
-  margin-left: 45px;
-}
-
-#Button3 {
-  color: white;
-  margin-right: 300px;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 15px;
-  cursor: pointer;
-  float: right;
-  margin-top: -50px;
-}
-
-#aboutimg {
-  margin: -48px 400px 0px -38px;
-  height: 350px;
-  width: 120%;
-}
-
-#text5 {
-  color: #FFFFFF;
-  font-size: 30px;
-  margin: 90px;
-  margin-top: 70px;
-}
-
-.vertical_navbar {
-  display: none;
-}
-
-#menu-menu {
-  position: fixed;
-  top: 28px;
-  font-size: 15px;
-}
-
-#IMG1 {
-  display: none;
-}
-
-}
-
-.header {
-  background-color: #323944;
-  width: 112%;
-}
-
-#logo {
-  margin: 0.75em 0;
-  margin-top: 135px;
-}
-
+  #Button2 {
+    color: white;
+    margin-right: 300px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    cursor: pointer;
+    float: right;
+    margin-top: -50px;
+  }
+  #text4 {
+    color: #FFFFFF;
+    font-size: 25px;
+    margin-left: 45px;
+  }
+  #aboutimg {
+    margin: -48px 400px 0px -38px;
+    height: 350px;
+    width: 120%;
+  }
+  #text5 {
+    color: #FFFFFF;
+    font-size: 30px;
+    margin: 90px;
+    margin-top: 70px;
+  }
+  .vertical_navbar {
+    display: none;
+  }
+  #menu-menu {
+    position: fixed;
+    top: -32px;
+    font-size: 13px;
+  }
+  #IMG1 {
+    display: none;
+  }
+  .header {
+    background-color: #323944;
+    width: 112%;
+  }
+  #logo {
+    margin: 0.75em 0;
+    margin-top: 135px;
+  }
 }
 
 .nav {
@@ -2681,7 +2649,7 @@ be set to display none.
     text-align: center;
     text-decoration: none;
     font-size: 16px;
-    margin: 0px 127px 0px 0px;
+    margin: 0px 258px 0px 0px;
     cursor: pointer;
     float: right;
     display: inline-block;
@@ -2699,12 +2667,11 @@ be set to display none.
   }
   #Austin {
     font-size: 10px;
-    /* margin-top: -50px; */
     text-align: center;
-    margin: -51px 293px 0px 0px;
+    margin: -61px 398px 0px -90px;
   }
   #laptop {
-    height: 283px;
+    height: 400px;
     width: 119%;
   }
   #text4 {
@@ -2723,11 +2690,6 @@ be set to display none.
     float: right;
     margin-top: -35px;
   }
-  /* #laptop {
-    margin: 0px 0px 0px -150px;
-    height: 350px;
-    width: 116%;
-  } */
   #aboutimg {
     margin: -85px 400px 0px -270px;
     height: 350px;
@@ -2759,8 +2721,8 @@ be set to display none.
   }
   #menu-menu {
     position: fixed;
-    top: 28px;
-    font-size: 10px;
+    top: -34px;
+    font-size: 14px;
   }
   #IMG1 {
     display: none;
@@ -2768,7 +2730,6 @@ be set to display none.
   #logo {
     margin: 0.75em 0;
     margin-top: 110px;
-
   }
 }
 
@@ -2801,7 +2762,7 @@ be set to display none.
     text-align: center;
     text-decoration: none;
     font-size: 16px;
-    margin: 4px 125px 0px 0px;
+    margin: 29px 257px 0px 0px;
     cursor: pointer;
     float: right;
     display: inline-block;
@@ -2819,9 +2780,10 @@ be set to display none.
   }
   #Austin {
     font-size: 10px;
-    margin-top: 40px;
+    margin-top: 13px;
     text-align: center;
-    margin-right: 111px;
+    /* margin-right: 0; */
+    margin-left: -415px;
   }
   #laptop {
     height: 250px;
@@ -2845,14 +2807,50 @@ be set to display none.
   }
   #laptop {
     margin: 0px 0px 0px -150px;
-    height: 350px;
-    width: 116%;
+    height: 404px;
+    width: 130%;
   }
- 
   #aboutimg {
     margin: -48px 400px 0px -268px;
     height: 350px;
-    width: 176%;
+    width: 203%;
+  }
+  #text5 {
+    color: #FFFFFF;
+    font-size: 20px;
+    margin: 90px;
+    margin-left: 250px;
+  }
+  #text4 {
+    color: #FFFFFF;
+    font-size: 21px;
+    margin-left: 45px;
+    margin-top: 20px;
+  }
+  #Button2 {
+    color: white;
+    margin-right: 150px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    cursor: pointer;
+    float: right;
+    margin-top: -40px;
+    margin-left: 150px;
+  }
+  #menu-menu {
+    position: fixed;
+    top: -10px;
+    font-size: 10px;
+  }
+  #IMG1 {
+    display: none;
+  }
+  #logo {
+    margin: 0.75em 0;
+    margin-top: 110px;
   }
   #text5 {
     color: #FFFFFF;
@@ -2890,51 +2888,5 @@ be set to display none.
   #logo {
     margin: 0.75em 0;
     margin-top: 110px;
-  
-}
-
-#text5 {
-  color: #FFFFFF;
-  font-size: 20px;
-  margin: 90px;
-  margin-left: 250px;
-}
-
-#text4 {
-  color: #FFFFFF;
-  font-size: 21px;
-  margin-left: 45px;
-  margin-top: 20px;
-}
-
-#Button2 {
-  color: white;
-  margin-right: 150px;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 15px;
-  cursor: pointer;
-  float: right;
-  margin-top: -40px;
-  margin-left: 150px;
-}
-
-#menu-menu {
-  position: fixed;
-  top: 28px;
-  font-size: 10px;
-}
-
-#IMG1 {
-  display: none;
-}
-
-#logo {
-  margin: 0.75em 0;
-  margin-top: 110px;
-}
-
-
+  }
 }
