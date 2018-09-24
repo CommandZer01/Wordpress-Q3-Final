@@ -33,7 +33,7 @@ the whole project.
  * Correct `block` display not defined in IE 8/9.
  */
 
-article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
   display: block;
 }
 
@@ -2230,9 +2230,9 @@ query for retina AND a certain size if you want. Go Nuts.
   it would be 48px x 48px. You'd name it the same, but with a @2x at the end
   (this is pretty standard practice). Set the background image so it matches
   the original dimensions and you are good to go.
-<<<<<<< HEAD
+
 */
-  =======
+
 }
 
 /*********************
@@ -2313,7 +2313,9 @@ be set to display none.
     margin: 0px 150px 0px -20px;
   }
   #eventsplugin {
-    margin: 0px 57px 0px -214px;
+
+    margin: -37px 57px 0px -226px;
+
   }
   #contactplugin {
     opacity: 0.7;
@@ -2346,7 +2348,7 @@ be set to display none.
   #laptop {
     margin: 0px 0px 0px -150px;
     height: 450px;
-    width: 130%;
+    width: 136%;
   }
   #text4 {
     color: #FFFFFF;
@@ -2374,10 +2376,22 @@ be set to display none.
     font-size: 35px;
     margin: 14px;
   }
-  /* #menu-menu {
+   #menu-menu {
+
       position: fixed;
-      top: 40px;
-    } */
+      top: -19px;
+    } 
+}
+
+#text1 {
+  font-size: 30px;
+}
+
+#IMG1 {
+  width: 500px;
+}
+
+
 }
 
 @media only screen and (min-width: 780px) and (max-width: 1029px) {
@@ -2437,13 +2451,13 @@ be set to display none.
     display: inline-block;
   }
   #aboutimg {
-    margin: -85px 300px 0px -130px;
+    margin: -85px 400px 0px -38px;
     height: 250px;
     width: 140%;
   }
   #text5 {
     color: #FFFFFF;
-    font-size: 25px;
+    font-size: 30px;
     margin: 10px;
     margin-left: 160px;
   }
@@ -2498,8 +2512,64 @@ be set to display none.
   #laptop {
     margin: 0px 0px 0px 108px;
     opacity: 0.7;
-    height: 420px;
-    width: 78%;
+    height: 400px;
+    width: 86%;
+  }
+  #Button2 {
+    color: white;
+    margin-right: 300px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    cursor: pointer;
+    float: right;
+    margin-top: -50px;
+  }
+  #text4 {
+    color: #FFFFFF;
+    font-size: 15px;
+    margin-left: 45px;
+  }
+  #Button3 {
+    color: white;
+    margin-right: 300px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    cursor: pointer;
+    float: right;
+    margin-top: -50px;
+  }
+  #aboutimg {
+    margin: -85px 400px 0px -38px;
+    height: 350px;
+    width: 120%;
+  }
+  #text5 {
+    color: #FFFFFF;
+    font-size: 30px;
+    margin: 90px;
+    margin-top: 70px;
+  }
+  .vertical_navbar {
+    display: none;
+  }
+  #menu-menu {
+    position: fixed;
+    top: 28px;
+    font-size: 10px;
+  }
+  #IMG1 {
+    width: 450px;
+  }
+  .header {
+    background-color: #323944;
+    width: 112%;
+
   }
 }
 
@@ -2697,7 +2767,8 @@ be set to display none.
   }
   #logo {
     margin: 0.75em 0;
-    margin-top: 135px;
+    margin-top: 110px;
+
   }
 }
 
@@ -2777,10 +2848,11 @@ be set to display none.
     height: 350px;
     width: 116%;
   }
+ 
   #aboutimg {
-    margin: -85px 400px 0px -270px;
+    margin: -48px 400px 0px -268px;
     height: 350px;
-    width: 172%;
+    width: 176%;
   }
   #text5 {
     color: #FFFFFF;
@@ -2816,6 +2888,53 @@ be set to display none.
     display: none;
   }
   #logo {
-    width: 280px;
-  }
+    margin: 0.75em 0;
+    margin-top: 110px;
+  
+}
+
+#text5 {
+  color: #FFFFFF;
+  font-size: 20px;
+  margin: 90px;
+  margin-left: 250px;
+}
+
+#text4 {
+  color: #FFFFFF;
+  font-size: 21px;
+  margin-left: 45px;
+  margin-top: 20px;
+}
+
+#Button2 {
+  color: white;
+  margin-right: 150px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  cursor: pointer;
+  float: right;
+  margin-top: -40px;
+  margin-left: 150px;
+}
+
+#menu-menu {
+  position: fixed;
+  top: 28px;
+  font-size: 10px;
+}
+
+#IMG1 {
+  display: none;
+}
+
+#logo {
+  margin: 0.75em 0;
+  margin-top: 110px;
+}
+
+
 }
