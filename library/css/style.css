@@ -1915,11 +1915,6 @@ FOOTER STYLES
   width: 112%;
 }
 
-#laptop {
-  margin: 0px 0px 0px 0px;
-  height: 450px;
-}
-
 /*
 if you checked out the link above:
 http://www.alistapart.com/articles/organizing-mobile/
@@ -2374,20 +2369,16 @@ be set to display none.
     font-size: 35px;
     margin: 14px;
   }
-  /* #menu-menu {
+  #menu-menu {
     position: fixed;
-    top: 40px;
-  } */
-}
-
-#text1 {
-  font-size: 30px;
-}
-
-#IMG1 {
-  width: 500px;
-}
-
+    top: -19px;
+  }
+  #text1 {
+    font-size: 30px;
+  }
+  #IMG1 {
+    width: 500px;
+  }
 }
 
 @media only screen and (min-width: 780px) and (max-width: 1029px) {
@@ -2457,6 +2448,17 @@ be set to display none.
     margin: 10px;
     margin-left: 160px;
   }
+  #menu-menu {
+    position: fixed;
+    top: -19px;
+  }
+  #laptop {
+    margin: 0px 0px 0px -9px;
+    height: 450px;
+    width: 101%;
+  }
+}
+
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -2556,7 +2558,7 @@ be set to display none.
   }
   #menu-menu {
     position: fixed;
-    top: 28px;
+    top: -19px;
     font-size: 10px;
   }
   #IMG1 {
@@ -2597,7 +2599,7 @@ be set to display none.
     text-align: center;
     text-decoration: none;
     font-size: 16px;
-    margin: 4px 30px 0px 10px;
+    margin: 4px 128px 0px 10px;
     cursor: pointer;
     float: right;
     display: inline-block;
@@ -2617,11 +2619,139 @@ be set to display none.
     font-size: 10px;
     margin-top: 40px;
     text-align: center;
-    margin-right: 30px;
+    margin-right: 93px;
   }
-  #laptop {
-    height: 250px;
-    width: 119%;
+}
+
+#laptop {
+  height: 250px;
+  width: 119%;
+}
+
+#text4 {
+  font-size: 20px;
+  margin-left: 40px;
+}
+
+#Button3 {
+  color: white;
+  margin-right: 200px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  cursor: pointer;
+  float: right;
+  margin-top: -35px;
+}
+
+#laptop {
+  margin: 0px 0px 0px -150px;
+  height: 350px;
+  width: 116%;
+}
+
+#aboutimg {
+  margin: -85px 400px 0px -270px;
+  height: 350px;
+  width: 172%;
+}
+
+#text5 {
+  color: #FFFFFF;
+  font-size: 20px;
+  margin: 90px;
+  margin-left: 250px;
+}
+
+#text4 {
+  color: #FFFFFF;
+  font-size: 21px;
+  margin-left: 45px;
+  margin-top: 20px;
+}
+
+#Button2 {
+  color: white;
+  margin-right: 150px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  cursor: pointer;
+  float: right;
+  margin-top: -40px;
+  margin-left: 150px;
+}
+
+#menu-menu {
+  position: fixed;
+  top: -11px;
+  font-size: 10px;
+}
+
+#IMG1 {
+  display: none;
+}
+
+#logo {
+  margin: 0.75em 0;
+  margin-top: 110px;
+}
+
+}
+
+@media only screen and (max-width: 499px) and (min-width: 350px) {
+  #testimonalpluin {
+    margin: 0px 150px 0px -20px;
+  }
+  #eventsplugin {
+    margin-right: 300px;
+    width: 65%;
+    height: 20px;
+    margin-bottom: 300px;
+  }
+  #contactplugin {
+    margin: 0px 0px 0px 140px;
+    opacity: 0.7;
+    height: 300px;
+    width: 78%;
+  }
+  #contactplugin2 {
+    margin: 0px 0px 0px 140px;
+    opacity: 0.7;
+    height: 325px;
+    width: 110%;
+  }
+  #Button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 13px 163px 0px 0px;
+    cursor: pointer;
+    float: right;
+    display: inline-block;
+  }
+  #text1 {
+    margin: 0px 0px 0px -250px;
+    /* margin-top: -50px; */
+    text-align: left;
+    font-size: 15px;
+  }
+  #Text2 {
+    margin: 0px 0px 0px -130px;
+    margin-top: -50px;
+    text-align: left;
+  }
+  #Austin {
+    font-size: 10px;
+    margin-top: -60px;
+    text-align: center;
   }
   #text4 {
     font-size: 20px;
@@ -2629,7 +2759,7 @@ be set to display none.
   }
   #Button3 {
     color: white;
-    margin-right: 200px;
+    margin-right: 150px;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -2641,13 +2771,13 @@ be set to display none.
   }
   #laptop {
     margin: 0px 0px 0px -150px;
-    height: 350px;
-    width: 116%;
+    height: 384px;
+    width: 142%;
   }
   #aboutimg {
-    margin: -85px 400px 0px -270px;
+    margin: -48px 400px 0px -268px;
     height: 350px;
-    width: 172%;
+    width: 176%;
   }
   #text5 {
     color: #FFFFFF;
@@ -2686,132 +2816,4 @@ be set to display none.
     margin: 0.75em 0;
     margin-top: 110px;
   }
-}
-
-@media only screen and (max-width: 499px) and (min-width: 350px) {
-  #testimonalpluin {
-    margin: 0px 150px 0px -20px;
-  }
-  #eventsplugin {
-    margin-right: 300px;
-    width: 65%;
-    height: 20px;
-    margin-bottom: 300px;
-  }
-  #contactplugin {
-    margin: 0px 0px 0px 140px;
-    opacity: 0.7;
-    height: 300px;
-    width: 78%;
-  }
-  #contactplugin2 {
-    margin: 0px 0px 0px 140px;
-    opacity: 0.7;
-    height: 325px;
-    width: 110%;
-  }
-  #Button {
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 16px;
-    margin: 4px 125px 0px 0px;
-    cursor: pointer;
-    float: right;
-    display: inline-block;
-  }
-  #text1 {
-    margin: 0px 0px 0px -250px;
-    /* margin-top: -50px; */
-    text-align: left;
-    font-size: 15px;
-  }
-  #Text2 {
-    margin: 0px 0px 0px -130px;
-    margin-top: -50px;
-    text-align: left;
-  }
-  #Austin {
-    font-size: 10px;
-    margin-top: 40px;
-    text-align: center;
-    margin-right: 111px;
-  }
-  #laptop {
-    height: 250px;
-    width: 119%;
-  }
-  #text4 {
-    font-size: 20px;
-    margin-left: 40px;
-  }
-  #Button3 {
-    color: white;
-    margin-right: 150px;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 12px;
-    cursor: pointer;
-    float: right;
-    margin-top: -35px;
-  }
-  #laptop {
-    margin: 0px 0px 0px -150px;
-    height: 350px;
-    width: 116%;
-  }
-  #aboutimg {
-    margin: -48px 400px 0px -268px;
-    height: 350px;
-    width: 176%;
-  }
-}
-
-#text5 {
-  color: #FFFFFF;
-  font-size: 20px;
-  margin: 90px;
-  margin-left: 250px;
-}
-
-#text4 {
-  color: #FFFFFF;
-  font-size: 21px;
-  margin-left: 45px;
-  margin-top: 20px;
-}
-
-#Button2 {
-  color: white;
-  margin-right: 150px;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 15px;
-  cursor: pointer;
-  float: right;
-  margin-top: -40px;
-  margin-left: 150px;
-}
-
-#menu-menu {
-  position: fixed;
-  top: 28px;
-  font-size: 10px;
-}
-
-#IMG1 {
-  display: none;
-}
-
-#logo {
-  margin: 0.75em 0;
-  margin-top: 110px;
-}
-
 }
