@@ -77,6 +77,3 @@ wp_link_pages( array(
 </div>
 
 <?php get_footer(); ?>
-
-
-Message
