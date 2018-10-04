@@ -1367,7 +1367,9 @@ HEADER STYLES
 
 #logo {
   margin: 0.75em 0;
-  margin-top: 37px;
+  margin-top: 39px;
+  font-size: 30px;
+  margin-left: -254px;
 }
 
 #logo a {
@@ -1912,12 +1914,7 @@ FOOTER STYLES
   clear: both;
   background-color: #323944;
   color: #f8f9fa;
-  width: 112%;
-}
-
-#laptop {
-  margin: 0px 0px 0px 0px;
-  height: 450px;
+  width: 100%;
 }
 
 /*
@@ -2316,7 +2313,7 @@ be set to display none.
   }
   #contactplugin {
     opacity: 0.7;
-    width: 110%;
+    width: 112%;
     height: 400px;
     margin: 10px;
   }
@@ -2345,7 +2342,7 @@ be set to display none.
   #laptop {
     margin: 0px 0px 0px -150px;
     height: 450px;
-    width: 129%;
+    width: 130%;
   }
   #text4 {
     color: #FFFFFF;
@@ -2375,7 +2372,7 @@ be set to display none.
   }
   #menu-menu {
     position: fixed;
-    top: -35px;
+    top: -22px;
     font-size: 15px;
   }
   #text1 {
@@ -2383,9 +2380,84 @@ be set to display none.
   }
   #IMG1 {
     width: 500px;
+    margin-left: 0px;
   }
   #IMG2 {
-    width: 434px;
+    width: 500px;
+    margin-left: -30px;
+  }
+  #IMG3 {
+    width: 500px;
+    margin-left: -139px;
+  }
+  #IMG4 {
+    width: 500px;
+    margin-left: -40px;
+  }
+  #IMG5 {
+    width: 500px;
+    margin-left: -130px;
+  }
+  #jobs {
+    width: 300px;
+    margin-left: 204px;
+  }
+  #text6 {
+    font-size: 30px;
+    margin-left: 13px;
+    text-align: center;
+  }
+  #info {
+    margin-left: -276px;
+    width: 179%;
+  }
+  #info2 {
+    margin: 30px 0px 0px -257px;
+  }
+  #info3 {
+    margin: 69px -22px 0px 0px;
+  }
+  #info4 {
+    margin: 69px -22px 0px 230px;
+  }
+  #whytext1 {
+    margin: 0px 0px 0px 140px;
+    width: 100%;
+  }
+  #whytext2 {
+    margin: 0px 0px 0px -200px;
+    width: 100%;
+  }
+  #whytext3 {
+    margin: 0px 0px 0px 140px;
+    width: 100%;
+  }
+  #whytext4 {
+    margin: 0px 0px 0px -200px;
+    width: 100%;
+  }
+  #whytext5 {
+    margin: 0px 0px 0px 140px;
+    width: 100%;
+  }
+  #foot {
+    margin: -86px 0px 0px -281px;
+  }
+  #FAQ {
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 180%;
+    margin-left: -284px;
+  }
+  #FAQ1 {
+    font-size: 15px;
+    margin-left: 170px;
+  }
+  #foot1 {
+    margin: 0px 0px 0px -213px;
+  }
+  #About {
+    margin: 0px 0px 0px 0px;
   }
 }
 
@@ -2395,17 +2467,18 @@ be set to display none.
   }
   #eventsplugin {
     margin: 0px 200px 0px -90px;
+    width: 91%;
   }
   #contactplugin {
     margin: 0px 0px 0px 140px;
     opacity: 0.7;
     height: 300px;
-    width: 90%;
+    width: 95%;
   }
   #contactplugin2 {
     margin: 0px 0px 0px 140px;
     opacity: 0.7;
-    width: 120%;
+    width: 118%;
     height: 350px;
   }
   #Button {
@@ -2427,7 +2500,7 @@ be set to display none.
     margin: 0px 0px 0px -130px;
   }
   #Austin {
-    font-size: 20px;
+    font-size: 14px;
   }
   #text4 {
     font-size: 30px;
@@ -2446,9 +2519,9 @@ be set to display none.
     display: inline-block;
   }
   #aboutimg {
-    margin: -85px 400px 0px -38px;
+    margin: -83px 400px 0px -97px;
     height: 250px;
-    width: 140%;
+    width: 128%;
   }
   #text5 {
     color: #FFFFFF;
@@ -2458,11 +2531,64 @@ be set to display none.
   }
   #menu-menu {
     position: fixed;
-    top: -35px;
+    top: 18px;
     font-size: 15px;
   }
-  #IMG2 {
-    width: 434px;
+  #jobs {
+    width: 300px;
+    margin-left: 204px;
+  }
+  #text6 {
+    font-size: 30px;
+    margin-left: 13px;
+    text-align: center;
+  }
+  #info {
+    width: 159%;
+  }
+  #info2 {
+    margin: 30px 0px 0px 16px;
+  }
+  #info3 {
+    margin: 30px -40px 0px 0px;
+  }
+  #info4 {
+    margin: 30px -22px 0px 112px
+  }
+  #laptop {
+    margin: 0px 0px 0px 0px;
+    height: 450px;
+    width: 109%;
+  }
+  #whytext1 {
+    margin: 0px 0px 0px 130px;
+    width: 100%;
+  }
+  #whytext2 {
+    margin: 0px 0px 0px -100px;
+    width: 100%;
+  }
+  #whytext3 {
+    margin: 0px 0px 0px 130px;
+    width: 100%;
+  }
+  #whytext4 {
+    margin: 0px 0px 0px -100px;
+    width: 100%;
+  }
+  #whytext5 {
+    margin: 0px 0px 0px 130px;
+    width: 100%;
+  }
+  #FAQ {
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 162%;
+    margin-left: -284px;
+  }
+  #FAQ1 {
+    font-size: 10px;
+    margin-left: 265px;
   }
 }
 
@@ -2474,12 +2600,13 @@ be set to display none.
   }
   #eventsplugin {
     margin: 0px 200px 0px -90px;
+    width: 82%;
   }
   #contactplugin {
     margin: 0px 0px 0px 140px;
     opacity: 0.7;
     height: 400px;
-    width: 76%;
+    width: 78%;
   }
   #contactplugin2 {
     margin: 0px 0px 0px 140px;
@@ -2514,7 +2641,7 @@ be set to display none.
   #laptop {
     margin: 0px 0px 0px -101px;
     height: 503px;
-    width: 100%;
+    width: 119%;
   }
   #Button2 {
     color: white;
@@ -2559,17 +2686,9 @@ be set to display none.
   .vertical_navbar {
     display: none;
   }
-  #menu-menu {
-    position: fixed;
-    top: -20px;
-    font-size: 13px;
-  }
-  #IMG1 {
-    width: 450px;
-  }
   .header {
     background-color: #323944;
-    width: 112%;
+    width: 126%;
   }
   #Button2 {
     color: white;
@@ -2604,29 +2723,98 @@ be set to display none.
   }
   #menu-menu {
     position: fixed;
-    top: -32px;
+    top: 16px;
     font-size: 13px;
   }
   #IMG1 {
     display: none;
   }
-  .header {
-    background-color: #323944;
-    width: 112%;
-  }
   #logo {
     margin: 0.75em 0;
     margin-top: 135px;
   }
+  .nav {
+    border-bottom: 0;
+    margin: auto;
+    margin-top: 34px;
+  }
+  #jobs {
+    width: 300px;
+    margin-left: 204px;
+  }
+  #text6 {
+    font-size: 30px;
+    margin-left: 13px;
+    text-align: center;
+  }
+  #info {
+    margin-right: -275px;
+    margin-left: -276px;
+  }
+  #info2 {
+    margin: 30px 0px 0px 91px;
+  }
+  #info3 {
+    margin: 30px 0px 0px 91px;
+  }
+  #info4 {
+    margin: 30px -22px 0px 91px
+  }
+  .footer {
+    clear: both;
+    background-color: #323944;
+    color: #f8f9fa;
+    width: 127%;
+  }
+  #IMG1 {
+    display: none;
+  }
   #IMG2 {
     display: none;
   }
-}
-
-.nav {
-  border-bottom: 0;
-  /* margin: auto; */
-  margin-top: 34px;
+  #IMG3 {
+    display: none;
+  }
+  #IMG4 {
+    display: none;
+  }
+  #IMG5 {
+    display: none;
+  }
+  #whytext1 {
+    margin: 0px;
+    width: 100%;
+  }
+  #whytext2 {
+    margin: 0px;
+    width: 100%;
+  }
+  #whytext3 {
+    margin: 0px;
+    width: 100%;
+  }
+  #whytext4 {
+    margin: 0px;
+    width: 100%;
+  }
+  #whytext5 {
+    margin: 0px;
+    width: 100%;
+  }
+  #FAQ {
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 180%;
+    margin-left: -284px;
+  }
+  #FAQ1 {
+    margin-top: 88px;
+    font-size: 10px;
+    margin-left: 265px;
+  }
+  #foot1 {
+    margin: 0px 0px 0px 0px;
+  }
 }
 
 @media only screen and (max-width: 699px) and (min-width: 500px) {
@@ -2635,7 +2823,7 @@ be set to display none.
   }
   #eventsplugin {
     margin-right: 300px;
-    width: 70%;
+    width: 100%;
     height: 20px;
     margin-bottom: 300px;
   }
@@ -2664,10 +2852,11 @@ be set to display none.
     display: inline-block;
   }
   #text1 {
-    margin: 0px 0px 0px -130px;
-    margin-top: -50px;
+    margin-top: 0px;
     text-align: left;
     font-size: 20px;
+    margin-left: -200px;
+    width: 100%;
   }
   #Text2 {
     margin: 0px 0px 0px -130px;
@@ -2730,7 +2919,7 @@ be set to display none.
   }
   #menu-menu {
     position: fixed;
-    top: -34px;
+    top: 19px;
     font-size: 14px;
   }
   #IMG1 {
@@ -2743,6 +2932,30 @@ be set to display none.
   #IMG2 {
     display: none;
   }
+  #info {
+    margin-right: -275px;
+    margin-left: -276px;
+  }
+  #info2 {
+    margin: 30px 0px 0px 91px;
+  }
+  #info3 {
+    margin: 30px 0px 0px 91px;
+  }
+  #info4 {
+    margin: 30px -22px 0px 91px
+  }
+  #FAQ {
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 180%;
+    margin-left: -284px;
+  }
+  #FAQ1 {
+    font-size: 7px;
+    margin-left: 268px;
+    margin-top: 88px;
+  }
 }
 
 @media only screen and (max-width: 499px) and (min-width: 350px) {
@@ -2751,9 +2964,9 @@ be set to display none.
   }
   #eventsplugin {
     margin-right: 300px;
-    width: 65%;
     height: 20px;
     margin-bottom: 300px;
+    width: 62%;
   }
   #contactplugin {
     margin: 0px 0px 0px 140px;
@@ -2781,7 +2994,7 @@ be set to display none.
   }
   #text1 {
     margin: 0px 0px 0px -250px;
-    /* margin-top: -50px; */
+    margin-top: -50px;
     text-align: left;
     font-size: 15px;
   }
@@ -2802,8 +3015,10 @@ be set to display none.
     width: 119%;
   }
   #text4 {
-    font-size: 20px;
-    margin-left: 40px;
+    color: #FFFFFF;
+    font-size: 19px;
+    margin-left: 45px;
+    margin-top: 20px;
   }
   #Button3 {
     color: white;
@@ -2820,7 +3035,7 @@ be set to display none.
   #laptop {
     margin: 0px 0px 0px -150px;
     height: 404px;
-    width: 130%;
+    width: 139%;
   }
   #aboutimg {
     margin: -48px 400px 0px -268px;
@@ -2854,8 +3069,9 @@ be set to display none.
   }
   #menu-menu {
     position: fixed;
-    top: -10px;
+    top: 25px;
     font-size: 10px;
+    margin-top: -24px;
   }
   #IMG1 {
     display: none;
@@ -2866,7 +3082,7 @@ be set to display none.
   }
   #text5 {
     color: #FFFFFF;
-    font-size: 20px;
+    font-size: 18px;
     margin: 90px;
     margin-left: 250px;
   }
@@ -2889,11 +3105,6 @@ be set to display none.
     margin-top: -40px;
     margin-left: 150px;
   }
-  #menu-menu {
-    position: fixed;
-    top: 28px;
-    font-size: 10px;
-  }
   #IMG1 {
     display: none;
   }
@@ -2904,4 +3115,36 @@ be set to display none.
   #IMG2 {
     display: none;
   }
+  #jobs {
+    width: 150px;
+    margin-left: 140px;
+    height: 100px;
+    margin-bottom: 50px;
+  }
+  #text6 {
+    font-size: 30px;
+    margin-left: 13px;
+    text-align: center;
+  }
+  #info {
+    margin-right: -275px;
+    margin-left: -276px;
+  }
+  .header {
+    background-color: #323944;
+    width: 151%;
+  }
+  #FAQ {
+    background-repeat: no-repeat;
+    height: 241px;
+    width: 242%;
+    margin-left: -284px;
+  }
+  #FAQ1 {
+    font-size: 8px;
+    margin-left: 265px;
+    margin-top: 96px;
+  }
+}
+
 }
