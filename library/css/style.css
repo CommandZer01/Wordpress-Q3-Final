@@ -2380,23 +2380,24 @@ be set to display none.
   }
   #IMG1 {
     width: 500px;
-    margin-left: 0px;
+    margin-left: 30px;
   }
   #IMG2 {
     width: 500px;
-    margin-left: -30px;
+    margin-left: 80px;
   }
   #IMG3 {
     width: 500px;
-    margin-left: -139px;
+    margin-left: -200px;
   }
   #IMG4 {
     width: 500px;
-    margin-left: -40px;
+    margin-left: 80px;
+    height: 400px;
   }
   #IMG5 {
     width: 500px;
-    margin-left: -130px;
+    margin-left: -200px;
   }
   #jobs {
     width: 300px;
