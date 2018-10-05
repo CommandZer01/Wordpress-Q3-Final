@@ -2397,8 +2397,8 @@ be set to display none.
   }
   #IMG5 {
     width: 500px;
-    margin-left: -200px;
-  }
+    margin-left: -212px;
+}
   #jobs {
     width: 300px;
     margin-left: 204px;
@@ -2422,23 +2422,23 @@ be set to display none.
     margin: 69px -22px 0px 230px;
   }
   #whytext1 {
-    margin: 0px 0px 0px 140px;
+    margin: 0px 0px 0px 256px;
     width: 100%;
   }
   #whytext2 {
-    margin: 0px 0px 0px -200px;
+    margin: -47px 0px 0px -200px;
     width: 100%;
   }
   #whytext3 {
-    margin: 0px 0px 0px 140px;
-    width: 100%;
+    margin: -15px 0px 0px 236px;
+    width: 118%;
   }
   #whytext4 {
     margin: 0px 0px 0px -200px;
     width: 100%;
   }
   #whytext5 {
-    margin: 0px 0px 0px 140px;
+    margin: -27px 0px 0px 284px;
     width: 100%;
   }
   #foot {
